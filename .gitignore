@@ -1,0 +1,9 @@
+data/raw/
+data/raw_integrated
+data/raw_sample
+
+.ipynb_checkpoints/
+
+e-commercevenv
+
+requirements.docx
