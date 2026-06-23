@@ -1,0 +1,11 @@
+category,rule,passed,detail
+Schema,All Expected Columns Present,Pass,OK
+Data Type,total_payment is float,Pass,actual: float64
+Data Type,n_items is int,Pass,actual: int64
+Data Type,customer_age is int,Pass,actual: int64
+Missing,All Columns <= 10% Missing,Pass,OK
+Business Rule,payment >=0,Pass,Ok
+Business Rule,age -18 to 100,Pass,Ok
+Business Rule,n_items >=0,Pass,Ok
+Reference Integrity,customer_unique_id in customer_table,Pass,Ok
+Consistency Validation,Each city -> 1 state,Pass,Ok
